@@ -1,0 +1,170 @@
+@font-face {
+  font-family: lora-regular;
+  src: url("../fonts/lora-regular.ttf");
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url("../fonts/roboto-regular.ttf");
+}
+body {
+  margin: 0 auto;
+}
+
+/* Shared styles */
+.red-color {
+  color: #ff0000;
+}
+.dark-color {
+  color: #070211;
+}
+
+/* Header Styles */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/banner-image.png");
+  max-width: 1320px;
+  height: 600px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.header-section h5 {
+  color: white;
+  filter: brightness(100%);
+  text-align: center;
+  font-size: 32px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-family: lora-regular;
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+/* new Year Offer styles */
+
+.new-year-offer {
+  max-width: 800px;
+  margin: 120px auto;
+}
+.new-year {
+  text-align: center;
+}
+.new-year h1 {
+  font-size: 88px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.new-year p {
+  font-size: 24px;
+  font-weight: 600px;
+}
+
+.new-year h4 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 40px;
+}
+
+/* Midnight Party Styles */
+
+.midnight-party {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/midnight-party.png");
+  max-width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.midnight-party-text {
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.midnight-party-text h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.midnight-party-text p {
+  font-size: 20px;
+}
+
+.midnight-party-text h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Midnight Party Venue */
+.midnight-party-venue {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.2),
+    rgba(255, 0, 0, 0)
+  );
+  max-width: 1320px;
+  height: 480px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 120px;
+  border-radius: 15px;
+}
+
+.party-venue-text h4 {
+  font-size: 32px;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: roboto-regular;
+}
+
+.party-venue-text button {
+  background: #ff0000;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* coming soon section styles */
+.coming-soon-secion {
+  max-width: 1320px;
+  height: 460px;
+  margin: 0 auto;
+}
+.coming-soon {
+  display: flex;
+}
+/* .flex-item {
+  flex: 1;
+} */
+.pic-border img {
+  width: 360px;
+  height: 360px;
+}
+
+.pic-border {
+  height: 460px;
+  width: 460px;
+  border: 3px solid red;
+  border-radius: 50%;
+}
