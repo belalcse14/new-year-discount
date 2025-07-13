@@ -269,3 +269,50 @@ header h1 {
   gap: 20px;
   justify-content: space-around;
 }
+/* Newsletter section styles */
+
+.newsletter-section {
+  max-width: 1320px;
+  height: 615px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff2f2;
+  border-radius: 15px;
+}
+
+.newsletter-container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 25px 0 0 0;
+}
+
+.newsletter-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+.newsletter-input {
+  height: 40px;
+  width: 300px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  margin: 0 0 0 0;
+}
+
+.newsletter-button {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #ff0000;
+  color: white;
+  margin: 0 0 0 0;
+}
